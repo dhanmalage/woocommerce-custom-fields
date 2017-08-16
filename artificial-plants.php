@@ -89,7 +89,7 @@ function artificial_product_tabs( $tabs) {
 add_filter( 'woocommerce_product_data_tabs', 'artificial_product_tabs' );
 
 /**
- * Contents of the rental options product tab.
+ * Contents of the artificial product tab.
  */
 function artificial_options_product_tab_content() {
 	global $post; $woocommerce; $product;
